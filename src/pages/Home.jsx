@@ -1,10 +1,11 @@
 import React from "react";
-import Swipe from "../components/Swipe";
+import MainSlider from "../components/MainSlider";
 import Category from "../components/Category";
+import ProductsSlider from "../components/ProductsSlider";
 function Home() {
   return (
-    <div className="">
-      <Swipe className="" />
+    <>
+      <MainSlider className="" />
       <div className="flex justify-center w-[100%] sm:[50%]  gap-10">
         <Category
           title={"Get fit at home"}
@@ -58,8 +59,36 @@ function Home() {
             "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg"
           }
         />
+        <Category
+          title={"Deals & Promotions"}
+          image={
+            "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Deals_1x._SY304_CB430401028_.jpg"
+          }
+        />
       </div>
-    </div>
+      <div className="w-[100%]  flex justify-center gap-10">
+        <Category
+          title={"Easy returns"}
+          image={
+            "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg"
+          }
+        />
+        <Category
+          title={"Kindle E readers"}
+          image={
+            "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg"
+          }
+        />
+        <Category
+          title={"New arrivals in Toys"}
+          image={
+            "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg"
+          }
+        />
+      </div>
+
+      <ProductsSlider />
+    </>
   );
 }
 

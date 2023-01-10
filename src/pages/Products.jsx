@@ -9,6 +9,7 @@ function Products() {
       res.json()
     );
     setProducts(response.products);
+    console.log(products);
   };
   useEffect(() => {
     fetchData();
@@ -21,7 +22,7 @@ function Products() {
           <Product
             key={index}
             title={product.title}
-            image={product.thumbnail}
+            image={product.images[0]}
           />
         ))}
       </div>

@@ -45,13 +45,13 @@ function Navbar() {
         <img src={logo} className="lg:w-[69%] sm:pl-2"></img>
       </div>
 
-      <div className="relative w-[30%]  lg:flex items-center justify-between">
+      <div className="relative w-[30%]  flex justify-evenly   ">
         {/*className="hidden md:flex w-full justify-around text-2xl text-[#00F684]" */}
 
         <ul
           className={`menuNav ${
             navbarOpen ? " showMenu" : ""
-          } md:text-2xl md:flex items-center md:justify-between text-[#00F684]`}
+          } md:text-xl md:flex items-center md:justify-between gap-14 text-[#00F684]`}
         >
           <div
             className="lg:hidden md:hidden sm:visible text-gray-400 cursor-pointer hover:text-gray-500"
@@ -70,8 +70,8 @@ function Navbar() {
             </Link>
           </li>
           <li className="ml-2">
-            <Link to="/galer" className="hover:text-[#0095FF]">
-              Galery
+            <Link to="/trendkolik" className="hover:text-[#0095FF]">
+              Trend Kolik
             </Link>
           </li>
         </ul>

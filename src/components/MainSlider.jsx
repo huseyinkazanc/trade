@@ -16,7 +16,7 @@ import sl5 from "../assets/sl5.jpg";
 import sl6 from "../assets/sl6.jpg";
 import sl7 from "../assets/sl7.jpg";
 
-export default () => {
+export const MainSlider = () => {
   return (
     <div className="w-full">
       <Swiper
@@ -25,30 +25,31 @@ export default () => {
         spaceBetween={10}
         slidesPerView={1}
         navigation
-        className=""
+        className="h-[18rem]"
       >
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl1}></img>
+          <img className="w-full object-contain" src={sl1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl2}></img>
+          <img className="w-full object-contain" src={sl2}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl3}></img>
+          <img className="w-full object-contain" src={sl3}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl4}></img>
+          <img className="w-full object-contain" src={sl4}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl5}></img>
+          <img className="w-full object-contain" src={sl5}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl6}></img>
+          <img className="w-full object-contain" src={sl6}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full h-[23rem]" src={sl7}></img>
+          <img className="w-full object-contain" src={sl7}></img>
         </SwiperSlide>
       </Swiper>
     </div>
   );
 };
+export default MainSlider;
