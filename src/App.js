@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import Try from "./pages/Try";
 import TrendKolik from "./pages/TrendKolik";
+import GetfitatHome from "./pages/GetfitatHome";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/trendkolik" element={<TrendKolik />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/gitfitathome" element={<GetfitatHome />} />
         </Routes>
         <Footer />
       </BrowserRouter>
