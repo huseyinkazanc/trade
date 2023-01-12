@@ -71,7 +71,7 @@ function Navbar() {
           </li>
           <li className="ml-2">
             <Link to="/trendkolik" className="hover:text-[#0095FF]">
-              Trend Kolik
+              Trend Colic
             </Link>
           </li>
         </ul>
