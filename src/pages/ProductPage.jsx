@@ -1,7 +1,7 @@
 import React from "react";
 
-const ProductPage = () => {
-  return <div>Carhartt Men's Knit Cuffed Beanie</div>;
+const ProductPage = ({ title, image }) => {
+  return <div className="h-[95vh] bg-black">{title}</div>;
 };
 
 export default ProductPage;

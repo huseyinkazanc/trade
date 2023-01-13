@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Try from "./pages/Try";
 import TrendKolik from "./pages/TrendKolik";
 import GetfitatHome from "./pages/GetfitatHome";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/trendkolik" element={<TrendKolik />} />
           <Route path="/login" element={<Login />} />
           <Route path="/gitfitathome" element={<GetfitatHome />} />
+          <Route path="/:id" element={<ProductPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -19,7 +19,7 @@ function GetfitatHome() {
               "https://m.media-amazon.com/images/I/81MSnS4nUnL._AC_UL480_QL65_.jpg"
             }
             title={"Carhartt Men's Knit Cuffed Beanie"}
-            address="/"
+            address="../productpage"
             value={3.5}
             pric={"$17.99-$46.92"}
           />
